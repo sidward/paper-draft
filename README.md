@@ -28,7 +28,9 @@ Main document compiled.
 ```main.bib```
 References go here.
 
-## How to compile
+## How to compile with pdflatex
 
-```pdflatex main.tex```
-or use Overleaf.
+```pdflatex main```
+```bibtex main```
+```pdflatex main```
+```pdflatex main```
