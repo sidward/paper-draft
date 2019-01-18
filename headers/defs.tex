@@ -1,0 +1,46 @@
+\newcommand{\n}{\par \smallskip \par}                                                           % Skip
+\newcommand{\f}{\smallskip \hrule \smallskip}                                                   % Line
+\newcommand{\s}[1]{\textbf{#1}.}                                                                % Bold title
+\newcommand{\e}[1]{e^{#1}}                                                                      % Exponential
+\newcommand{\code}[1]{\lstinputlisting[breaklines, frame=single]{#1}}                           % General code snippet
+\newcommand{\codep}[1]{\lstinputlisting[breaklines, frame=single,language=Python]{#1}}          % Python code snippet
+\newcommand{\w}{\omega}                                                                         % Omega
+\newcommand{\Z}{\mathbb{Z}}                                                                     % Integers
+\newcommand{\Q}{\mathbb{Q}}                                                                     % Rationals
+\newcommand{\R}{\mathbb{R}}                                                                     % Reals
+\newcommand{\F}{\mathbb{F}}                                                                     % Fields
+\newcommand{\C}{\mathbb{C}}                                                                     % Complex numbers
+\newcommand{\N}{\mathbb{N}}                                                                     % Naturals
+\newcommand{\po}[2]{\mathcal{P}_{#1}\left({#2}\right)}                                          % Polynomial
+\newcommand{\lm}[2]{\mathcal{L}\left(#1, #2\right)}                                             % Linear map
+\newcommand{\im}[1]{\:\text{Im}\left({#1}\right)}                                               % Imaginary
+\newcommand{\re}[1]{\:\text{Re}\left({#1}\right)}                                               % Real
+\newcommand{\fr}[1]{\:\mathcal{F}\left\{{#1}\right\}}                                           % Fourier transform
+\newcommand{\ifr}[1]{\:\mathcal{F}^{-1}\left\{{#1}\right\}}                                     % Inverse Fourier transform
+\newcommand{\sinc}[1]{\text{sinc}\left({#1}\right)}                                             % Sinc
+\newcommand{\rect}[1]{\text{rect}\left({#1}\right)}                                             % Rect
+\newcommand{\E}[1]{\mathds{E}\left\{{#1}\right\}}                                               % Expected Value
+\newcommand{\qed}{\hfill $\square$}                                                             % QED
+\newcommand{\nul}[1]{\text{null}\left(#1\right)}                                                % null(T)
+\newcommand{\range}[1]{\text{range}\left(#1\right)}                                             % range(T)
+\newcommand{\ip}[1]{\left\langle#1\right\rangle}                                                % Inner product
+\newcommand{\mat}[1]{\begin{bmatrix} #1\end{bmatrix}}                                           % Matrix
+\newcommand{\scr}[1]{\mathscr{ #1 }}
+\newcommand{\vb}[1]{\begin{verbatim} #1 \end{verbatim}}
+\newcommand{\TODO}[1]{\color{red} \textbf{TODO} {#1} \color{black}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}                                                        % Argmin
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+  backgroundcolor=\color{white},
+  basicstyle=\footnotesize,
+  breaklines=true,
+  captionpos=b,
+  commentstyle=\color{mygreen},
+  escapeinside={\%*}{*)},
+  keywordstyle=\color{blue},
+  stringstyle=\color{mymauve},
+}
