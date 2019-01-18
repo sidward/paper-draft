@@ -24,3 +24,8 @@ Individual source files for different sections.
 
 ```main.tex```
 Main document compiled.
+
+## How to compile
+
+```pdflatex main.tex```
+or use Overleaf.
