@@ -25,6 +25,9 @@ Individual source files for different sections.
 ```main.tex```
 Main document compiled.
 
+```main.bib```
+References go here.
+
 ## How to compile
 
 ```pdflatex main.tex```
