@@ -30,7 +30,8 @@ References go here.
 
 ## How to compile with pdflatex
 
-```pdflatex main```
-```bibtex main```
-```pdflatex main```
-```pdflatex main```
+```./make.sh```
+
+## How to clean auxillary files
+
+```./clean.sh```
